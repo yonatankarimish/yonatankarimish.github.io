@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75302db-c2a0-4863-9e2a-f5cd0b86d945" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/angular-cookies.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/controllers/authCtrl.js" afterPath="$PROJECT_DIR$/resources/controllers/authCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/controllers/instagular.js" afterPath="$PROJECT_DIR$/resources/controllers/instagular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/controllers/photoCtrl.js" afterPath="$PROJECT_DIR$/resources/controllers/photoCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/html/photos.html" afterPath="$PROJECT_DIR$/resources/html/photos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/services/services.js" afterPath="$PROJECT_DIR$/resources/services/services.js" />
     </list>
     <ignored path="watchdox home assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +27,8 @@
       <file leaf-file-name="instagular.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/controllers/instagular.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -50,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="40" column="131" selection-start-line="40" selection-start-column="131" selection-end-line="40" selection-end-column="131" />
+            <state relative-caret-position="493">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -70,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+            <state relative-caret-position="272">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -138,12 +132,12 @@
         <option value="$PROJECT_DIR$/resources/js/instagular.js" />
         <option value="$PROJECT_DIR$/resources/assets/angular-ui-router.min.js" />
         <option value="$PROJECT_DIR$/resources/assets/angular-cookies.min.js" />
-        <option value="$PROJECT_DIR$/resources/controllers/instagular.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/html/photos.html" />
         <option value="$PROJECT_DIR$/resources/controllers/photoCtrl.js" />
         <option value="$PROJECT_DIR$/resources/controllers/authCtrl.js" />
         <option value="$PROJECT_DIR$/resources/services/services.js" />
+        <option value="$PROJECT_DIR$/resources/controllers/instagular.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -680,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/html/photos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -704,14 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/controllers/instagular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/controllers/authCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -722,8 +700,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="40" column="131" selection-start-line="40" selection-start-column="131" selection-end-line="40" selection-end-column="131" />
+        <state relative-caret-position="493">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/controllers/instagular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>

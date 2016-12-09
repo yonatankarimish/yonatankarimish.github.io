@@ -4,7 +4,7 @@ angular.module('instagular').constant("clientID", "c46ca01523264d949df297d6bd4b0
 
 angular.module('instagular')
     .config(function($stateProvider, $locationProvider) {
-      $locationProvider.html5Mode(true);
+      //$locationProvider.html5Mode(true);
       $stateProvider
           .state({
             name: 'auth',
