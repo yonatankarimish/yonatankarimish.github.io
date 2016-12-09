@@ -6,17 +6,17 @@ angular.module('instagular')
     .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
         .when("/photos", {
-            templateUrl : "watchdox/resources/html/photos.html",
+            templateUrl : "./resources/html/photos.html",
             //controller: photoCtrl,
             //controllerAs: photos
         })
         .when("/auth", {
-            templateUrl : "watchdox/resources/html/auth.html",
+            templateUrl : "./resources/html/auth.html",
             //controller: authCtrl,
             //controllerAs: auth
         })
         .otherwise({
-            templateUrl : "watchdox/resources/html/auth.html"
+            templateUrl : "./resources/html/auth.html"
         })
     $locationProvider.html5Mode(true);
 }]);
