@@ -11,9 +11,6 @@
     <script type="text/javascript" src="./resources/js/photoCtrl.js"></script>
 </head>
 <body ng-app="instagular">
-    <div ng-controller="authCtrl as auth">
-        <h1>You must log in with instagram in order to view your photos</h1>
-        <button type="button" id="authBtn" ng-click="auth.getToken()">Verify now</button>
-    </div>
+    <ng-view></ng-view>
 </body>
 </html>
