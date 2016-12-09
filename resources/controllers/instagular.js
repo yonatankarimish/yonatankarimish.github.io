@@ -1,9 +1,10 @@
-angular.module('instagular', ["ui.router"]);
+angular.module('instagular', ["ui.router", "ngCookies"]);
 
 angular.module('instagular').constant("clientID", "c46ca01523264d949df297d6bd4b06f9");
 
 angular.module('instagular')
-    .config(function($stateProvider) {
+    .config(function($stateProvider, $locationProvider) {
+      $locationProvider.html5Mode(true);
       $stateProvider
           .state({
             name: 'auth',
