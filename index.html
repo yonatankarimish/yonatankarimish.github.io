@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagular Assignment - Yonatan Alon</title>
+    <script type="text/javascript" src="./resources/assets/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./resources/assets/angular.js"></script>
+    <script type="text/javascript" src="./resources/assets/angular-route.js"></script>
+    <script type="text/javascript" src="./resources/js/instagular.js"></script>
+    <script type="text/javascript" src="./resources/js/authCtrl.js"></script>
+    <script type="text/javascript" src="./resources/js/photoCtrl.js"></script>
+</head>
+<body ng-app="instagular">
+    <div ng-controller="authCtrl as auth">
+        <h1>You must log in with instagram in order to view your photos</h1>
+        <button type="button" id="authBtn" ng-click="auth.getToken()">Verify now</button>
+    </div>
+</body>
+</html>
