@@ -6,20 +6,22 @@ angular.module('instagular')
     .config(function($stateProvider) {
       $stateProvider
           .state({
-            name: 'hello',
+            name: 'auth',
             url: '/',
-            templateUrl : "/resources/html/auth.html",
+            templateUrl : "resources/html/auth.html",
             controller: 'authCtrl',
             controllerAs: 'auth'
           })
           .state({
             name: 'photos',
-            url: '/photos',
-            templateUrl : "/resources/html/photos.html",
+            url: '/photos/',
+            templateUrl : "resources/html/photos.html",
             controller: 'photoCtrl',
             controllerAs: 'photos'
           });
-    });
+    }).run(function($state){
+      $state.go('auth');
+  });
     /*.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
         .when("/photos/:token", {
