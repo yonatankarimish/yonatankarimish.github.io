@@ -2,7 +2,7 @@ angular.module('instagular').controller('authCtrl', ['$scope', '$http', '$window
     var auth = this;
 
     auth.address = {
-        redirect_uri: "http://localhost:63342/watchdox/index.html",
+        redirect_uri: "https://yonatankarimish.github.io/photos",
     }
     auth.address.login = "https://api.instagram.com/oauth/authorize/?client_id="+clientID+"&redirect_uri="+auth.address.redirect_uri+"&response_type=token";
 
