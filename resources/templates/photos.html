@@ -1,0 +1,8 @@
+<div ng-controller="photoCtrl as photos">
+    <h1>Photos Page</h1>
+    <tag-history></tag-history>
+    <div>
+        <span>tag:</span><input type="text" ng-model="photos.tag" /><button type="button" id="findByTag" ng-click="photos.addTagToHistory()">Find Photos</button>
+    </div>
+    <img ng-repeat="picture in photos.data" ng-src="{{picture.images.standard_resolution.url}}" />
+</div>

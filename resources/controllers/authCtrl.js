@@ -9,7 +9,7 @@ angular.module('instagular').controller('authCtrl', ['$scope', '$http', '$state'
 
     if($cookies.get('access_token')){
         console.log($cookies.get('access_token'));
-        $state.go('auth');
+        $state.go('photos');
     }
     else{
         window.location.href = auth.address.login;

@@ -9,14 +9,14 @@ angular.module('instagular')
           .state({
             name: 'auth',
             url: '/',
-            templateUrl : "resources/html/auth.html",
+            templateUrl : "resources/templates/auth.html",
             controller: 'authCtrl',
             controllerAs: 'auth'
           })
           .state({
             name: 'photos',
             url: '/photos/',
-            templateUrl : "resources/html/photos.html",
+            templateUrl : "resources/templates/photos.html",
             controller: 'photoCtrl',
             controllerAs: 'photos'
           });
