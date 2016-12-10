@@ -6,7 +6,7 @@ angular.module('instagular').controller('photoCtrl', ['$scope', '$http', '$cooki
     photos.token = $cookies.get('access_token');
     photos.data = [];
     photos.tag = "";
-    photos.history = $cookies.get('tag_history').split(',');
+    photos.history = $cookies.get('tag_history')? $cookies.get('tag_history').split(',') : [];
     console.log("photos.history: "+photos.history);
 
     //load script
