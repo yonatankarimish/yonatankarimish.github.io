@@ -10,21 +10,27 @@ angular.module('instagular').controller('photoCtrl', ['$scope', '$http', '$cooki
     console.log("photos.history: "+photos.history);
 
     //load script
-    InstagramAPI.fetchPhotos(photos.token, function(responseData){
-         photos.data = responseData;
-         console.log(responseData);
-    });
 
     //functions
     photos.addTagToHistory = function(){
+        var tagIndex = photos.history.indexOf(photos.tag);
+        if(tagIndex>-1)
+            photos.history.splice(tagIndex,1);
         photos.history.unshift(photos.tag);
         photos.history.splice(5,1);
-        photos.findByTag();
+        photos.tag == ""? photos.findAll() : photos.findByTag();
     }
 
     photos.tagClicked = function(elem){
         photos.tag = elem.tag;
-        photos.findByTag();
+        photos.tag == ""? photos.findAll() : photos.findByTag();
+    }
+
+    photos.findAll = function(){
+        InstagramAPI.fetchPhotos(photos.token, function(responseData){
+             photos.data = responseData;
+             console.log(responseData);
+        });
     }
 
     photos.findByTag = function(){
@@ -36,4 +42,6 @@ angular.module('instagular').controller('photoCtrl', ['$scope', '$http', '$cooki
                  console.log(responseData);
         });
     }
+
+    photos.findAll();
 }]);

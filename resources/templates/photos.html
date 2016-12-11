@@ -1,8 +1,14 @@
-<div ng-controller="photoCtrl as photos">
-    <h1>Photos Page</h1>
-    <tag-history></tag-history>
-    <div>
-        <span>tag:</span><input type="text" ng-model="photos.tag" /><button type="button" id="findByTag" ng-click="photos.addTagToHistory()">Find Photos</button>
+<div ng-controller="photoCtrl as photos" class="flex-container flex-vertical">
+    <h1 class="flex-item textCenter">Photos Page</h1>
+    <tag-history class="flex-container flex-horizontal flex-item"></tag-history>
+    <div class="flex-container flex-horizontal flex-item">
+        <span class="flex-item">tag:</span>
+        <input class="flex-item" type="text" ng-model="photos.tag" />
+        <button class="flex-item" type="button" id="findByTag" ng-click="photos.addTagToHistory()">Find Photos</button>
     </div>
-    <img ng-repeat="picture in photos.data" ng-src="{{picture.images.standard_resolution.url}}" />
+    <div class="flex-container flex-horizontal flex-item image-container">
+        <div class="image-wrapper flex-container" ng-repeat="picture in photos.data">
+            <img class="flex-item" ng-src="{{picture.images.standard_resolution.url}}" />
+        </div>
+    </div>
 </div>

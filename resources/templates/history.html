@@ -1,5 +1,5 @@
 <div>
-    <span ng-repeat="tag in photos.history" ng-click="photos.tagClicked(this);">
+    <span ng-repeat="tag in photos.history track by $index" ng-click="photos.tagClicked(this);" class="flex-item historyTag">
         #{{tag}}
     </span>
 </div>
