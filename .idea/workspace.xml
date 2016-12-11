@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75302db-c2a0-4863-9e2a-f5cd0b86d945" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/controllers/photoCtrl.js" afterPath="$PROJECT_DIR$/resources/controllers/photoCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/instagular.css" afterPath="$PROJECT_DIR$/resources/css/instagular.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/templates/history.html" afterPath="$PROJECT_DIR$/resources/templates/history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/templates/photos.html" afterPath="$PROJECT_DIR$/resources/templates/photos.html" />
     </list>
     <ignored path="watchdox home assignment.iws" />
@@ -80,8 +77,8 @@
       <file leaf-file-name="photos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/templates/photos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="51">
+              <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -110,8 +107,8 @@
       <file leaf-file-name="instagular.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/css/instagular.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="459">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -799,16 +796,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/photos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="51">
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/instagular.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state relative-caret-position="459">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>
