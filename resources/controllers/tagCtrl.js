@@ -10,7 +10,11 @@ angular.module('instagular').controller('tagCtrl', ['$scope', '$http', '$cookies
             tags.history.splice(tagIndex,1);
         tags.history.unshift(tags.current);
         tags.history.splice(5,1);
+
+        var nextYear = new Date();
+        nextYear.setFullYear(nextYear.getFullYear()+1);
         $cookies.put('tag_history', tags.history, {'expires': nextYear});
+
         tags.current == "" ? tags.findAll() : tags.findByTag({searchTag: tags.current});
     }
 

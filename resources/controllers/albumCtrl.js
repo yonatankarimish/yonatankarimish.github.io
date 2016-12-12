@@ -11,8 +11,6 @@ angular.module('instagular').controller('albumCtrl', ['$scope', '$http', '$cooki
     }
 
     album.findByTag = function(searchTag){
-        var nextYear = new Date();
-        nextYear.setFullYear(nextYear.getFullYear()+1);
         InstagramAPI.fetchPhotosByTag(album.token, searchTag, function(responseData){
              album.data = responseData;
              console.log(responseData);
