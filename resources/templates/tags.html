@@ -1,0 +1,12 @@
+<div>
+    <div class="flex-container flex-horizontal flex-item tag-container">
+        <span ng-repeat="tag in tags.history track by $index" ng-click="tags.tagClicked(this);" class="flex-item historyTag">
+            #{{tag}}
+        </span>
+    </div>
+    <div class="flex-container flex-horizontal flex-item search-container">
+        <span class="flex-item">Tag:</span>
+        <input class="flex-item" type="text" ng-model="tags.current" placeholder="Search by tag name" />
+        <button class="flex-item" type="button" id="findByTag" ng-click="tags.addTagToHistory()">Find Photos</button>
+    </div>
+</div>

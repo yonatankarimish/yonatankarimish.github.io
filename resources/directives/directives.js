@@ -1,22 +1,40 @@
-angular.module('instagular').directive('tagHistory', function(){
-    return{
-        /*scope: {
-            history:'=history'
-        },*/
-        //scope:true,
-        restrict: 'E',
-        replace: true,
-        templateUrl: 'resources/templates/history.html',
-        /*controller: function($scope, $compile, $cookies) {
-            var history = this;
-            history.addTagToHistory = function(tag){
-                photos.history.unshift(tag);
-                photos.history.splice(5,1);
-            }
-        },
-        controllerAs: 'history',*/
-        link: function($scope, elem, attrs) {
-            console.log('$scope.history: '+$scope.history);
-        }
-    };
-});
+angular.module('instagular')
+    .directive('instagularAuth', function(){
+        return{
+            restrict: 'E',
+            replace: true,
+            controller: 'authCtrl',
+            controllerAs: 'auth',
+            bindToController: true,
+            templateUrl: 'resources/templates/auth.html',
+        };
+    })
+    .directive('photoAlbum', function(){
+        return{
+            scope:{
+                token: "@"
+            },
+            restrict: 'E',
+            replace: true,
+            require: ['^instagularAuth'],
+            controller: 'albumCtrl',
+            controllerAs: 'album',
+            bindToController: true,
+            templateUrl: 'resources/templates/album.html',
+        };
+    })
+    .directive('tagHistory', function(){
+        return{
+            scope: {
+                findAll: "&",
+                findByTag: "&"
+            },
+            restrict: 'E',
+            replace: true,
+            require: ['^photoAlbum'],
+            controller: 'tagCtrl',
+            controllerAs: 'tags',
+            bindToController: true,
+            templateUrl: 'resources/templates/tags.html',
+        };
+    });

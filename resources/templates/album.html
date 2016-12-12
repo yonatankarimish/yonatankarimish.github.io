@@ -1,0 +1,8 @@
+<div>
+    <tag-history find-all="album.findAll()" find-by-tag="album.findByTag(searchTag)"></tag-history>
+    <div class="flex-container flex-horizontal flex-item image-container">
+        <div class="image-wrapper flex-container" ng-repeat="picture in album.data">
+            <img class="flex-item" ng-src="{{picture.images.standard_resolution.url}}" />
+        </div>
+    </div>
+</div>
