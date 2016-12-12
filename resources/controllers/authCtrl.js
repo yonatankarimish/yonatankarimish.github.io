@@ -1,9 +1,6 @@
 angular.module('instagular').controller('authCtrl', ['$scope', '$http', '$state', '$window', "urlResolver", "clientID", '$cookies', 'InstagramAPI', function($scope, $http, $state, $window, urlResolver, clientID, $cookies, InstagramAPI){
     var auth = this;
 
-    console.log($window.location.href);
-    console.log($window.location.href.split('#'));
-
     auth.login = function(){
         $window.location.href = auth.address.login;
     }
@@ -24,7 +21,6 @@ angular.module('instagular').controller('authCtrl', ['$scope', '$http', '$state'
     auth.isAuthenticated = false;
 
     if(auth.token != null){
-        console.log(auth.token);
         auth.isAuthenticated = true;
     }
 }]);
