@@ -9,7 +9,7 @@ angular.module('instagular').controller('authCtrl', ['$scope', '$http', '$state'
 
     if(auth.token){
         console.log(auth.token);
-        auth.isAuthenticated = true;
+        //auth.isAuthenticated = true;
     }
     else{
         $window.location.href = auth.address.login;

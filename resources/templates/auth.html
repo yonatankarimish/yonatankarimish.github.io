@@ -1,7 +1,7 @@
 <div ng-controller="authCtrl as auth">
-    <div ng-show="!auth.isAuthenticated">
+    <div class="flex-container flex-vertical login-container" ng-show="!auth.isAuthenticated">
         <h1 class="flex-item textCenter">Welcome</h1>
-        <button class="flex-item" type="button">View my album</button>
+        <button class="flex-item login" type="button">Explore album</button>
     </div>
 
     <div class="flex-container flex-vertical" ng-show="auth.isAuthenticated">
