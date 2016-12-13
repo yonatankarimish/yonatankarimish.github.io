@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75302db-c2a0-4863-9e2a-f5cd0b86d945" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/instagular.css" afterPath="$PROJECT_DIR$/resources/css/instagular.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/services.js" afterPath="$PROJECT_DIR$/sources/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/tag-history/tag-history.html" afterPath="$PROJECT_DIR$/sources/tag-history/tag-history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/tag-history/tagCtrl.js" afterPath="$PROJECT_DIR$/sources/tag-history/tagCtrl.js" />
     </list>
     <ignored path="watchdox home assignment.iws" />
@@ -60,8 +56,8 @@
       <file leaf-file-name="tagCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sources/tag-history/tagCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -812,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/tag-history/tagCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
           <folding />
         </state>
       </provider>

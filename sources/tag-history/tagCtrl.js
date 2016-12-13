@@ -3,7 +3,7 @@ angular.module('instagular').controller('tagCtrl', ['$scope', '$http', '$cookies
 
     tags.current = "";
     tags.history = localStorage.getItem('tag_history') != null ? JSON.parse(localStorage.getItem('tag_history')) : [];
-    tags.validTagName = /^[A-Za-z_]+[A-Za-z_0-9]*$/;
+    tags.validTagName = /^[A-Za-z_\u00D0-\u05EA]+[A-Za-z_\u00D0-\u05EA0-9]*$/;
     
     tags.addTagToHistory = function(){
         if(tags.current == undefined)
