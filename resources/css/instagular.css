@@ -17,6 +17,10 @@ h6{
     margin: 0px;
 }
 
+form{
+    margin:10px 0px;
+}
+
 button {
     background-color: #860000;
     border: solid 2px black;
@@ -184,8 +188,8 @@ input.ng-invalid:focus{
     border: solid 2px black;
     border-radius: 10px;
     margin: auto;
-    max-height: 98%;
-    width: 98%;
+    height: 90%;
+    width: 90%;
 }
 
 .image-container .image-wrapper{
