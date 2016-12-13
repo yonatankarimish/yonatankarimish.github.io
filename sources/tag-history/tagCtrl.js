@@ -20,4 +20,9 @@ angular.module('instagular').controller('tagCtrl', ['$scope', '$http', '$cookies
         tags.current = elem.tag;
         tags.current == "" ? tags.findAll({sortCache:false}) : tags.findByTag({searchTag: tags.current, sortCache:false});
     }
+
+    tags.keyPressed = function(event){
+        if(event.keyCode == 13)
+            tags.addTagToHistory();
+    }
 }]);

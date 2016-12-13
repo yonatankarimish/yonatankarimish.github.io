@@ -1,4 +1,4 @@
-angular.module('instagular').controller('authCtrl', ['$scope', '$http', '$state', '$window', "urlResolver", "clientID", '$cookies', 'InstagramAPI', function($scope, $http, $state, $window, urlResolver, clientID, $cookies, InstagramAPI){
+angular.module('instagular').controller('authCtrl', ['$scope', '$http', '$window', "urlResolver", "clientID", '$cookies', 'InstagramAPI', function($scope, $http, $window, urlResolver, clientID, $cookies, InstagramAPI){
     var auth = this;
 
     auth.login = function(){

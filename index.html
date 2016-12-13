@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagular Assignment - Yonatan Alon</title>
-    <script type="text/javascript" src="./resources/assets/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="./resources/assets/angular.js"></script>
-    <script type="text/javascript" src="./resources/assets/angular-ui-router.min.js"></script>
-    <script type="text/javascript" src="./resources/assets/angular-cookies.min.js"></script>
-    <script type="text/javascript" src="./resources/controllers/instagular.js"></script>
-    <script type="text/javascript" src="./resources/services/services.js"></script>
-    <script type="text/javascript" src="./resources/controllers/authCtrl.js"></script>
-    <script type="text/javascript" src="./resources/controllers/albumCtrl.js"></script>
-    <script type="text/javascript" src="./resources/controllers/tagCtrl.js"></script>
-    <script type="text/javascript" src="./resources/directives/directives.js"></script>
+    <script type="text/javascript" src="./assets/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./assets/angular.min.js"></script>
+    <script type="text/javascript" src="./assets/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="./sources/instagularModule.js"></script>
+    <script type="text/javascript" src="./sources/services.js"></script>
+    <script type="text/javascript" src="./sources/auth/authCtrl.js"></script>
+    <script type="text/javascript" src="./sources/photo-album/albumCtrl.js"></script>
+    <script type="text/javascript" src="./sources/tag-history/tagCtrl.js"></script>
+    <script type="text/javascript" src="./sources/directives.js"></script>
     <link rel="stylesheet" type="text/css" href="./resources/css/instagular.css">
     <!--<script type="text/javascript">
         var resolvedHost = window.location.hostname == "localhost" ? "http://" + window.location.host+"/watchdox/index.html" : "https://" + window.location.host;
@@ -21,6 +20,17 @@
     </script>-->
 </head>
 <body ng-app="instagular">
-    <instagular-auth></instagular-auth>
+<div ng-controller="authCtrl as auth">
+    <div class="flex-container flex-vertical login-container" ng-show="!auth.isAuthenticated">
+        <h1 class="flex-item textCenter">Welcome</h1>
+        <button class="flex-item login" type="button" ng-click="auth.login();">Explore album</button>
+    </div>
+
+    <div class="flex-container flex-vertical" ng-show="::auth.isAuthenticated">
+        <h1 class="flex-item textCenter">My Photos</h1>
+        <h6 class="flex-item textCenter">Discover yourself, powered by Instagram</h6>
+        <photo-album token="{{auth.token}}"></photo-album>
+    </div>
+</div>
 </body>
 </html>

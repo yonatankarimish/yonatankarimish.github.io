@@ -158,6 +158,14 @@ input[type='text']:focus {
     flex-wrap:wrap;
 }
 
+.image-container img{
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: auto;
+    max-height: 98%;
+    width: 98%;
+}
+
 .image-container .image-wrapper{
     background-color: #fbfbea;
     background-image: url(../img/wrapper-background.jpg);
@@ -202,12 +210,4 @@ input[type='text']:focus {
     .login-container h1{
         font-size:140px;
     }
-}
-
-.image-container img{
-    border: solid 2px black;
-    border-radius: 10px;
-    margin: auto;
-    max-height: 98%;
-    width: 98%;
 }

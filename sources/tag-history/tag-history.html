@@ -6,7 +6,7 @@
     </div>
     <div class="flex-container flex-horizontal flex-item search-container">
         <span class="flex-item">Tag:</span>
-        <input class="flex-item" type="text" ng-model="tags.current" placeholder="Search by tag name" />
+        <input class="flex-item" type="search" ng-model="tags.current" placeholder="Search by tag name" ng-keyup="tags.keyPressed($event)" />
         <button class="flex-item" type="button" id="findByTag" ng-click="tags.addTagToHistory()">Find Photos</button>
     </div>
 </div>
