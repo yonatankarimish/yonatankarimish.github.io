@@ -62,7 +62,7 @@ button.login:hover {
     transform: scale(1.2);
 }
 
-input[type='text']{
+input[type='text'], input[type='search']{
     padding: 5px 10px;
     border: 1px solid #b7b7b7;
     box-shadow: 0px 0px 2px 0 rgba(0,0,0,0.75) inset;
@@ -72,18 +72,40 @@ input[type='text']{
     text-overflow: clip;
 }
 
-input[type='text']:hover {
+input[type='text']:not(.ng-invalid):hover, input[type='search']:not(.ng-invalid):hover {
     border: 1px solid #a3a3a3;
 }
 
-input[type='text']:focus {
+input[type='text']:not(.ng-invalid):focus, input[type='search']:not(.ng-invalid):focus {
     border: 1px solid #018dc4;
+    -mozbox-shadow: 0px 0px 4px 0 rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 4px 0 rgba(0,0,0,0.75) inset;
     box-shadow: 0px 0px 4px 0 rgba(0,0,0,0.75) inset;
+}
+
+input.ng-invalid{
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+input.ng-invalid:hover{
+    -mozbox-shadow: 0px 0px 4px 0 rgba(255,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 4px 0 rgba(255,0,0,0.75) inset;
+    box-shadow: 0px 0px 4px 0 rgba(255,0,0,0.75) inset;
+}
+
+input.ng-invalid:focus{
+    border: 1px solid #ff0000;
+    -mozbox-shadow: 0px 0px 6px 0 rgba(255,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 6px 0 rgba(255,0,0,0.75) inset;
+    box-shadow: 0px 0px 6px 0 rgba(255,0,0,0.75) inset;
+    outline: none;
 }
 
 .textCenter{
     text-align:center;
 }
+
 
 .flex-container{
     display: -moz-flex;

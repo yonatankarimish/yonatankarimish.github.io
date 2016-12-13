@@ -15,7 +15,7 @@ angular.module('instagular')
                 var endpoint = 'https://api.instagram.com/v1/users/self/media/recent/?count='+image_count+'&callback=JSON_CALLBACK&access_token='+access_token;
                 $http.jsonp(endpoint)
                 .then(function(response) {
-                  callback(response.data);
+                  callback(response.data.data); // The response has the data property for the returned JSON; Instagram wraps the photos in an object called data. Hence the repetition;
                 })
                 .catch(function(xhr, status, err) {
                   console.error(status, err);
@@ -25,7 +25,7 @@ angular.module('instagular')
                 var endpoint = 'https://api.instagram.com/v1/tags/'+tag+'/media/recent?count='+image_count+'&callback=JSON_CALLBACK&access_token='+access_token;
                 $http.jsonp(endpoint)
                 .then(function(response) {
-                  callback(response.data);
+                  callback(response.data.data);
                 })
                 .catch(function(xhr, status, err) {
                   console.error(status, err);

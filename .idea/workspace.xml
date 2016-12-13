@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c75302db-c2a0-4863-9e2a-f5cd0b86d945" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sources/instagularModule.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/controllers/instagular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/directives/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/templates/auth.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/angular-cookies.min.js" afterPath="$PROJECT_DIR$/assets/angular-cookies.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/angular.min.js" afterPath="$PROJECT_DIR$/assets/angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/assets/jquery-3.1.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/controllers/albumCtrl.js" afterPath="$PROJECT_DIR$/sources/photo-album/albumCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/controllers/authCtrl.js" afterPath="$PROJECT_DIR$/sources/auth/authCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/controllers/tagCtrl.js" afterPath="$PROJECT_DIR$/sources/tag-history/tagCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/services/services.js" afterPath="$PROJECT_DIR$/sources/services.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/templates/album.html" afterPath="$PROJECT_DIR$/sources/photo-album/photo-album.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/templates/tags.html" afterPath="$PROJECT_DIR$/sources/tag-history/tag-history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/instagular.css" afterPath="$PROJECT_DIR$/resources/css/instagular.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/services.js" afterPath="$PROJECT_DIR$/sources/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/tag-history/tag-history.html" afterPath="$PROJECT_DIR$/sources/tag-history/tag-history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sources/tag-history/tagCtrl.js" afterPath="$PROJECT_DIR$/sources/tag-history/tagCtrl.js" />
     </list>
     <ignored path="watchdox home assignment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,28 +50,28 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tagCtrl.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tagCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sources/tag-history/tagCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tag-history.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tag-history.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/tag-history/tag-history.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <caret line="8" column="100" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -95,8 +80,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="22">
+              <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -155,14 +140,14 @@
         <option value="$PROJECT_DIR$/resources/directives/directives.js" />
         <option value="$PROJECT_DIR$/resources/controllers/instagular.js" />
         <option value="$PROJECT_DIR$/resources/services/services.js" />
-        <option value="$PROJECT_DIR$/resources/css/instagular.css" />
         <option value="$PROJECT_DIR$/app/directives/directives.js" />
         <option value="$PROJECT_DIR$/sources/directives.js" />
         <option value="$PROJECT_DIR$/sources/auth/authCtrl.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sources/services.js" />
-        <option value="$PROJECT_DIR$/sources/tag-history/tagCtrl.js" />
+        <option value="$PROJECT_DIR$/resources/css/instagular.css" />
         <option value="$PROJECT_DIR$/sources/tag-history/tag-history.html" />
+        <option value="$PROJECT_DIR$/sources/tag-history/tagCtrl.js" />
       </list>
     </option>
   </component>
@@ -283,6 +268,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchdox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -721,26 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/instagular.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="158" column="1" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/directives.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/photo-album/photo-album.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -753,6 +754,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sources/photo-album/albumCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sources/auth/authCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -761,34 +770,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/photo-album/albumCtrl.js">
+    <entry file="file://$PROJECT_DIR$/resources/css/instagular.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="541">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/photo-album/photo-album.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="22">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/tag-history/tagCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -796,7 +805,15 @@
     <entry file="file://$PROJECT_DIR$/sources/tag-history/tag-history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <caret line="8" column="100" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/tag-history/tagCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>

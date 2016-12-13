@@ -3,8 +3,11 @@ angular.module('instagular').controller('tagCtrl', ['$scope', '$http', '$cookies
 
     tags.current = "";
     tags.history = localStorage.getItem('tag_history') != null ? JSON.parse(localStorage.getItem('tag_history')) : [];
+    tags.validTagName = /^[A-Za-z_]+[A-Za-z_0-9]*$/;
     
     tags.addTagToHistory = function(){
+        if(tags.current == undefined)
+            return;
         var tagIndex = tags.history.indexOf(tags.current);
         if(tagIndex>-1)
             tags.history.splice(tagIndex,1);
@@ -22,7 +25,7 @@ angular.module('instagular').controller('tagCtrl', ['$scope', '$http', '$cookies
     }
 
     tags.keyPressed = function(event){
-        if(event.keyCode == 13)
+        if(event.keyCode == 13 && tags.current != undefined)
             tags.addTagToHistory();
     }
 }]);
