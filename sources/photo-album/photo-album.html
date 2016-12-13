@@ -1,4 +1,5 @@
-<div>
+<div class="flex-container flex-vertical">
+    <img class="spinner" src="./resources/img/spinner.png" ng-show="album.loading" />
     <tag-history find-all="album.findAll(sortCache)" find-by-tag="album.findByTag(searchTag, sortCache)"></tag-history>
     <div class="flex-container flex-horizontal flex-item image-container">
         <div class="image-wrapper flex-container" ng-repeat="picture in album.data">
