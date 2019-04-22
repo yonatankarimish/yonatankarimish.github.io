@@ -1,2 +1,2 @@
 # yonatankarimish.github.io
-currently hosting watchdox assignment
+An old front-end assignment which retrieves instagram photos and tags
